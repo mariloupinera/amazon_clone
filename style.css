@@ -10,6 +10,7 @@
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     }
     /* menu-1 */
     .menu-1{
@@ -20,8 +21,9 @@
         justify-content: center;
         font: 14px "Amazon Ember",Arial,sans-serif;
         background-color:#0F1111 ;
-        position: relative;
-        left:10px;
+        /* position: relative;
+        left:10px; */
+        /* margin-left:10px; */
     }
     .menu-1:hover{
         width:129px;
@@ -33,17 +35,19 @@
         border-radius: 2px;
         background-color:#0F1111 ;
         font: 14px "Amazon Ember",Arial,sans-serif;
-        position: relative;
-        left:10px;
+        /* position: relative;
+        left:10px; */
+        /* margin-left:10px; */
     }
 
     /* menu2 */
 
     .menu-2{
         display: flex;
-        position: relative;
+        /* position: relative; */
         align-items: center;
-        left:20px;
+        /* left:20px; */
+        /* margin-left:20px; */
         height: 50px;
         width: 170px;
        background-color:#0F1111;
@@ -51,13 +55,14 @@
     }
     .menu-2:hover{
         display: flex;
-        position: relative;
+        /* position: relative; */
         align-items: center;
-        left:20px;
+        /* margin-left:20px; */
+        /* left:20px; */
         height: 50px;
         width: 170px;
        background-color:#0F1111;
-       border: 1px solid #FFFFFF;
+       outline: 1px solid #FFFFFF;
        border-radius: 2px;
     }
    
@@ -88,8 +93,8 @@
     .menu-3{
         display: flex;
         align-items: center;
-        position: relative;
-        left:40px;
+        /* position: relative;
+        left:40px; */
     }
     .searchbar-1{
     height:40px;
@@ -144,8 +149,8 @@
     {
         width:55px;
         height:50px;
-        position: relative;
-        left: 50px;
+        /* position: relative;
+        left: 50px; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -174,8 +179,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative;
-        left:50px;
+        /* position: relative;
+        left:50px; */
     }
     .menu-5:hover{
         width:131.53px;
@@ -184,8 +189,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative;
-        left:50px;
+        /* position: relative;
+        left:50px; */
         border:1px solid #FFFFFF;
         border-radius: 2px;
     }
@@ -214,8 +219,8 @@
        display: flex;
        align-items: center;
        justify-content: center;
-       position: relative;
-       left:55px;
+       /* position: relative;
+       left:55px; */
    }
    .menu-6:hover{
     width:76.95;
@@ -223,8 +228,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left:55px;
+    /* position: relative;
+    left:55px; */
     border:1px solid #FFFFFF;
     border-radius: 2px;
 }
@@ -247,8 +252,8 @@
     align-items: center;
     justify-content: center;
     background-color: #0F1111;
-    position: relative;
-    left:60px;
+    /* position: relative;
+    left:60px; */
 }
  
 .menu-7:hover{
@@ -258,8 +263,8 @@
     align-items: center;
     justify-content: center;
     background-color: #0F1111;
-    position: relative;
-    left:60px;
+    /* position: relative;
+    left:60px; */
     border: 1px solid #FFFFFF;
     border-radius: 2px;
 }
