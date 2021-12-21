@@ -94,7 +94,7 @@
     .searchbar-1{
     height:40px;
     width:55px;
-    background-color: #F3F3F3;
+    background-color: #dfdbdb;
     text-align: center;
     color:#0F1111;
     display:flex;
@@ -104,6 +104,20 @@
     border-top-left-radius:4px;
     border-bottom-left-radius: 4px;
     }
+    .searchbar-1:hover{
+        height:40px;
+        width:55px;
+        background-color: #cecaca;
+        text-align: center;
+        color:#0F1111;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font: 14px "Amazon Ember",Arial,sans-serif;
+        border-top-left-radius:4px;
+        border-bottom-left-radius: 4px;
+        }
+
     .arr{
         margin-left: 5px;
     }
