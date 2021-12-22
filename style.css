@@ -51,7 +51,7 @@
         height: 50px;
         width: 170px;
        background-color:#0F1111;
-
+      
     }
     .menu-2:hover{
         display: flex;
@@ -65,21 +65,21 @@
        outline: 1px solid #FFFFFF;
        border-radius: 2px;
     }
-
+   
     .address{
         height: 50px;
         width: 166px;
         display: flex;
         position: relative;
         align-items: center;
-        left:5px;
+        left:5px; 
     }
-
+  
     .navchild{
         position: relative;
-        top:10px;
+        top:3px;
     }
-    .navchild2 p,h4{
+    /* .navchild2 p,h4{
         color: #FFFFFF;
         font: 14px "Amazon Ember",Arial,sans-serif;
     }
@@ -88,7 +88,13 @@
     }
     .navchild2 h4{
         font-weight: bold;
-    }
+    } */
+    .address-1{  
+        
+        font: 12px "Amazon Ember",Arial,sans-serif;
+        color:#FFFFFF;
+        position: relative;
+        left:1px;}
     /* menu-3 */
     .menu-3{
         display: flex;
@@ -131,7 +137,7 @@
         height:40px;
         background-color: #FFFFFF;
         border:none;
-
+        
     }
     .searchbar-2 input:focus, textarea:focus, select:focus{
         outline: none;
@@ -169,7 +175,7 @@
         color:#d6d6d6;;
         /* margin-left:5px; */
         position:relative;
-        top:5px;
+        top:5px;  
     }
     /* menu-5 */
     .menu-5{
@@ -204,8 +210,8 @@
         font: 12px "Amazon Ember",Arial,sans-serif;
         color:#FFFFFF;
         font-weight: bold;
-
-
+        
+        
     }
    .sign{
        margin-left: 5px;
@@ -233,17 +239,23 @@
     border:1px solid #FFFFFF;
     border-radius: 2px;
 }
-   .order p,h4{
+   /* .order p,h4{
     color: #FFFFFF;
     font: 14px "Amazon Ember",Arial,sans-serif;
-}
-.order p{
+} */
+/* .order p{
     font-size:12px;
 }
 .order h4{
     font-weight: bold;
+} */
+.order-1{
+    font: 12px "Amazon Ember",Arial,sans-serif;
+    color:#FFFFFF;
+    position: relative;
+    left:1px;
 }
-
+  
 /* menu-7 */
 .menu-7{
     width:84px;
@@ -255,7 +267,7 @@
     /* position: relative;
     left:60px; */
 }
-
+ 
 .menu-7:hover{
     width:84px;
     height:50px;
@@ -268,6 +280,8 @@
     border: 1px solid #FFFFFF;
     border-radius: 2px;
 }
+    
+
 
 /* carousel */
 
