@@ -12,6 +12,10 @@
     align-items: center;
     justify-content: space-evenly;
     }
+    body {
+        overflow-y: scroll; /* Show vertical scrollbar */
+        /* overflow-x: scroll; Show horizontal scrollbar */
+      }
     /* menu-1 */
     .menu-1{
         width:129px;
@@ -89,12 +93,11 @@
     .navchild2 h4{
         font-weight: bold;
     } */
-    .address-1{  
-        
+    .address-1{
+       
+        color: #FFFFFF;
         font: 12px "Amazon Ember",Arial,sans-serif;
-        color:#FFFFFF;
-        position: relative;
-        left:1px;}
+    }
     /* menu-3 */
     .menu-3{
         display: flex;
@@ -239,21 +242,21 @@
     border:1px solid #FFFFFF;
     border-radius: 2px;
 }
+
    /* .order p,h4{
     color: #FFFFFF;
     font: 14px "Amazon Ember",Arial,sans-serif;
-} */
-/* .order p{
+}
+.order p{
     font-size:12px;
 }
 .order h4{
     font-weight: bold;
 } */
 .order-1{
-    font: 12px "Amazon Ember",Arial,sans-serif;
-    color:#FFFFFF;
-    position: relative;
-    left:1px;
+    font-size:12px; 
+    color: #FFFFFF;
+    font: 12px "Amazon Ember",Arial,sans-serif; 
 }
   
 /* menu-7 */
@@ -281,8 +284,257 @@
     border-radius: 2px;
 }
     
+/* header start here */
+.navigation{
+    height:39px;
+    width:100%;
+    background-color: #232F3E;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation-1{
+    width:58px;
+    height:28px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    /* justify-content: center; */
+    font: 12px "Amazon Ember",Arial,sans-serif;
+    font-weight: bold;
+}
+.navigation-1:hover{
+    width:58px;
+    height:28px;
+    outline: 1px solid #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    /* justify-content: center; */
+    font: 12px "Amazon Ember",Arial,sans-serif;
+    font-weight: bold;
+}
+.menutext{
+    margin-left:2px;
+}
 
-/* carousel */
-
-
+.navigation-2{
+    height:28px;
+    width:91px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-2:hover{
+    height:28px;
+    width: 91px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-3{
+    height:28px;
+    width:67px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+  
+}
+.navigation-3:hover{
+    height:28px;
+    width:67px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-4{
+    height:28px;
+    width:128px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+   
+}
+.navigation-4:hover{
+    height:28px;
+    width:128px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-5{
+    height:28px;
+    width:128px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+   
+}
+.navigation-5:hover{
+    height:28px;
+    width:128px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-6{
+    height:28px;
+    width:66px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-6:hover{
+    height:28px;
+    width:66px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-7{
+    height:28px;
+    width:102px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    
+}
+.navigation-7:hover{
+    height:28px;
+    width:102px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-8{
+    height:28px;
+    width:68px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-8:hover{
+    height:28px;
+    width:68px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-9{
+    height:28px;
+    width:121px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-9:hover{
+    height:28px;
+    width:121px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-10{
+    height:28px;
+    width:121px;
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+}
+.navigation-10:hover{
+    height:28px;
+    width:121px;
+    outline: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content: center;
+    font: 14px "Amazon Ember",Arial,sans-serif;
+    /* font-weight: bold; */
+    border-radius: 2px;
+}
+.navigation-11:hover{
+    height:36px;
+    width:370px;
+    outline: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
